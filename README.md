@@ -15,10 +15,12 @@ This website is about a photographer and his works also it provide a way to cont
 
 ## problem faced 
 making it responsive
+
 coming up with the design from scratch
 
 ## what i learnt
 how to make socials icon represent the link
+
 different media queries across devices
 
 ## what i could do better
