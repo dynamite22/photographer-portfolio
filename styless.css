@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+h1{
+    margin-top: 37%;
+    margin-left: 3%;
+    position: relative;
+    font-size: 4em;
+}
+.quote{
+    font-size: 1.3em;
+    margin-left: 3%;
+}
+.one{
+    max-width: 40%;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    border-radius: 5%;
+}
+.do{
+    text-decoration: underline;
+    font-size: 2.3em;
+    font-style: italic;
+    margin-top: 8%;
+    text-align: center;
+}
+.icons{
+    max-width: 30%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    font-size: 1.3em;
+}
+.box{
+    flex: 1;
+    background: white;
+    color: black;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.works{
+    font-size: 2.3em;
+    margin: 3%;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding: 0.2%;
+    border-radius: 30px;
+}
+.events{
+    margin: 5%;
+    font-size: 2.3em;
+    font-style: italic;
+    text-decoration: underline;
+}
+#content{
+    margin: 3%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    grid-gap: 1.5%;
+}
+.two{
+    height: 100%;
+}
+.six{
+    height: 100%;
+}
+.seven{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+    border: 1px solid white;
+}
+.me{
+    font-size: 2.3em;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding: 0.2%;
+    border-radius: 30px;
+}
+.about{
+    color: black;
+    background-color: whitesmoke;
+    font-size: 1.5em;
+    margin: 3%;
+    padding: 1.4%;
+    border-radius: 10px;
+}
+.eight{
+    margin-left: 5%;
+    max-width: 100%;
+}
+.book{
+    font-size: 2.3em;
+    margin: 3%;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding: 0.2%;
+    border-radius: 30px;
+}
+form{
+    margin: 3%;
+    padding: 1%;
+    font-size: 1.6em;
+    color: white;
+    background-color: rgb(78, 78, 78);
+}
+input{
+    width: 100%;
+    padding: 2% 2%;
+    margin: 2% 0;
+    font-size: 0.8em;
+    border: 0.1em solid black;
+}
+input[type=submit]{
+    color: whitesmoke;
+    background-color: black;
+}
+::placeholder{
+    color: rgb(161, 161, 161);
+    font-size: 1.3em;
+    padding: 2%;
+}
+footer{
+    text-align: center;
+    margin: auto;
+}
+.my{
+    text-decoration: underline;
+    font-size: 2.3em;
+    font-style: italic;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+a{
+    margin: 1%;
+}
+.socials{
+    max-width: 30%;
+    border: none;
+}
+@media screen and (min-width: 600px){
+    h1{
+        font-size: 3.8em;
+    }
+    .quote{
+        font-size: 1em;
+    }
+    .eight{
+        max-width: 90%;
+    }
+    .socials{
+        max-width: 29%;
+    }
+    
+}
+@media screen and (min-width: 1024px){
+    .one{
+        max-width: 38%;
+    }
+    h1{
+        font-size: 6em;
+    }
+    #content{
+        grid-gap: 1%;
+    }
+    .more{
+        margin: 3%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+    }
+    .about{
+        font-size: 1.1em;
+        letter-spacing: 2%;
+        margin: 0;
+    }
+    .eight{
+        max-width: 100%;
+    }
+    form{
+        max-width: 50%;
+        margin: auto;
+    }
+    input{
+        padding: 1% 1%;
+    }
+    .socials{
+        max-width: 20%;
+    }
+}
+@media screen and (min-width: 1440px){
+    .one{
+        max-width: 31.5%;
+    }
+    h1{
+        margin-top: 26%;
+        font-size: 8em;
+    }
+    .quote{
+        font-size: 2em;
+    }
+    .events{
+        display: none;
+    }
+    #content{
+        margin: 0;
+    }
+    .group{
+        margin: 3%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+        grid-gap: 1%;
+    }
+    .more{
+        margin-left: 6%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+    }
+    .about{
+        font-size: 1.5em;
+        margin: 0;
+    }
+    .eight{
+        max-width: 100%;
+    }
+    form{
+        max-width: 50%;
+        margin: auto;
+    }
+    input{
+        padding: 1% 1%;
+    }
+    .socials{
+        max-width: 20%;
+    }
+}
